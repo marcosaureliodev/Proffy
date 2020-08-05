@@ -22,7 +22,7 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 # 🎓 Quem ministrou?
 
-A Next Level Week-2 foi ministrada pelo [Maik Brito](https://github.com/maykbrito)
+A Next Level Week-2 foi ministrada pelo [Maik Brito](https://github.com/maykbrito) no modo Discovery
 [<img src="https://avatars2.githubusercontent.com/u/6643122?s=400&u=1e9e1f04b76fb5374e6a041f5e41dce83f3b5d92&v=4" width=115 > <br> <sub> Maik Brito </sub>](https://github.com/maykbrito) |
 | :---: |  
 
@@ -30,7 +30,7 @@ A Next Level Week-2 foi ministrada pelo [Maik Brito](https://github.com/maykbrit
 
 Esse repositório está licenciado pela MIT LICENSE. Para mais informações detalhadas, leia o arquivo [LICENSE](https://github.com/marcosaureliodev/Proffy/blob/master/LICENSE) contido nesse repositório.
 
-# Rede Sociáis 📱
+# Redes Sociais 📱
 Me acompanhe nas minhas redes sociais.
 
 [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marcos-aur%C3%A9lio-47b590139/)](https://www.linkedin.com/in/marcos-aur%C3%A9lio-47b590139/)
