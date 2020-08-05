@@ -63,8 +63,13 @@ textarea {
   color: var(--color-text-base);
 }
 
-#conatiner {
+#container {
   width: 90vw; /* width = Largura */
   max-width: 700px;
-  
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%; /* todo 1rem vsi drt trlstivo a 10px */
+  }
 }

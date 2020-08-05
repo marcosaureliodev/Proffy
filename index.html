@@ -1,23 +1,5 @@
-<!-- isso é uma tag <HTML> -->
-<!-- Na tag <head> ira configuração do documento -->
-<!-- na tag <body> ira todo conteudo visível da página -->
-<!-- 
-HTML
-
-HyperText
-  HiperText
-  <a>
-
-Markup
-  Marcação
-
-Language
-  Linguagem
- -->
-
 <!DOCTYPE html>
-<html lang="pt_br"> <!-- lang é um atributo -->
-  
+<html lang="pt_br">
 <head>
 
   <meta charset="UTF-8">
@@ -25,24 +7,42 @@ Language
   <title>Proffy | Sua plataforma de estudos online</title>
   
   <!-- Css de personalização do projeto -->
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/partials/page-landing.css">
+
+  <!-- favicon icon da aba de títulos -->
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
 
   <!-- Fonts usadas no projeto -->
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 
 </head>
-
 <body id="page-landing">
 
   <div id="container">
-    <h1>Proffy</h1>
+    <div class="logo-container">
+        <img src="/images/logo.svg" alt="Proffy">
+        <h2>Sua plataforma de estudo online</h2>
+    </div>
   
-    <p>Sua plataforma de estudos online</p>
+    <img class="hero-image" src="/images/landing.svg" alt="Plataforma de Estudos">
     
-    <button>Estudor</button>
-    <button>Dar Aulas</button>
+   <div class="buttons-container">
+      <a class="study" href="/study.html">
+        <img src="/images/icons/study.svg" alt="Estudar">
+        Estudar
+      </a>
+      <a class="give-classes" href="/give-classes.html">
+        <img src="/images/icons/give-classes.svg" alt="Dar aulas">
+        Dar aulas
+      </a>
+   </div>
+
+   <p class="total-connections">
+     Total de 200 conexões já realizadas
+     <img src="/images/icons/purple-heart.svg" alt="Coração roxo">
+   </p>
   </div>
 
 </body>
-
 </html>
