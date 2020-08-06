@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewpot" content="width=device=width, initial-scale=1.0">
+  <meta name="theme-color" content="#8257E5">
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+
+  <title>Proffy | Sua plataforma de estudos online</title>
+
+  <!-- Css de personalização do projeto -->
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/partials/header.css">
+  <link rel="stylesheet" href="/styles/partials/forms.css">
+  <link rel="stylesheet" href="/styles/partials/page-give-classes.css">
+
+  <!-- Fonts usadas no projeto -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body id="page-give-classes">
+
+  <div id="container">
+    <header class="page-header">
+      <div class="top-bar-container">
+        <a href="/">
+          <img src="/images/icons/back.svg" alt="Voltar">
+        </a>
+        <img src="/images/logo.svg" alt="Proffy">
+      </div>
+
+      <div class="header-content">
+        <strong>Que incrível que você quer dar aulas</strong>
+        <p>O primeiro passo, é preencher esse formulário de inscrições</p>
+      </div>
+    </header>
+
+    <main>
+      <form action="" id="create-class">
+        <fieldset>
+          <legend>Seus dados</legend>
+
+          <div class="input-block">
+            <label for="name">Nome completo </label>
+            <input name="name" id="name" required>
+          </div>
+          <div class="input-block">
+            <label for="avatar">Link de sua foto <small>(comece com https://)</small></label>
+            <input name="avatar" id="avatar" type="url" required>
+          </div>
+          <div class="input-block">
+            <label for="whatsapp">Whatsapp <small>(somente número)</small></label>
+            <input name="whatsapp" id="whatsapp" type="number" required>
+          </div>
+          <div class="textarea-block">
+            <label for="bio">Biografia</label>
+            <textarea name="bio" id="bio" required></textarea>
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Sobre a aula</legend>
+          <div class="select-block">
+            <label for="subject"> Máteria</label>
+            <select name="subject" id="subject"required>
+              <option value="">Selecione uma opção</option>
+              <option value="1">Artes</option>
+              <option value="2">Biologia</option>
+              <option value="3">Ciência</option>
+              <option value="4">Educação Física</option>
+              <option value="5">Física</option>
+              <option value="6">Geografia</option>
+              <option value="7">História</option>
+              <option value="8">Matemática</option>
+              <option value="9">Português</option>
+              <option value="10">Quimica</option>
+            </select>
+          </div>
+
+          <div class="input-block">
+            <label for="cost">Custoda da sua hora/aula
+              <small>(R$)</small>
+            </label>
+            <input type="cost" id="cost" type="number" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Horário disponíveis
+            <button id="add-time">+ Novo Horário</button>
+          </legend>
+
+          <div class="schedule-item">
+            <div class="select-block">
+              <label for="weekday">Dia da semana</label>
+              <select name="weekday[]" required>
+                <option value="">Selecione uma opção</option>
+                <option value="1">Domingo</option>
+                <option value="2">Segunda-feira</option>
+                <option value="3">Terça-feira</option>
+                <option value="4">Quarta-feira</option>
+                <option value="5">Quinta-feira</option>
+                <option value="6">Sexta-feira</option>
+                <option value="7">Sábado</option>
+              </select>
+            </div>
+
+            <div class="input-block">
+              <label for="time-from">Das</label>
+              <input type="time" name="time-from[]" required>
+            </div>
+            <div class="input-block">
+              <label for="time-to">Até</label>
+              <input type="time" name="time-to[]" required>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="select-block">
+              <label for="weekday">Dia da semana</label>
+              <select name="weekday[]" required>
+                <option value="">Selecione uma opção</option>
+                <option value="0">Domingo</option>
+                <option value="1">Segunda-feira</option>
+                <option value="2">Terça-feira</option>
+                <option value="3">Quarta-feira</option>
+                <option value="4">Quinta-feira</option>
+                <option value="5">Sexta-feira</option>
+                <option value="6">Sábado</option>
+              </select>
+            </div>
+
+            <div class="input-block">
+              <label for="time-from">Das</label>
+              <input type="time" name="time-from[]" required>
+            </div>
+            <div class="input-block">
+              <label for="time-to">Até</label>
+              <input type="time" name="time-to[]" required>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <footer>
+        <p>
+          <img src="/images/icons/warning.svg" alt="Aviso Importante">
+          Importatnte! <br> Preencha todos os dados
+        </p>
+        <!-- Esse botão foi crado do lado de fora do forme
+             para que ele fucione foi usado o 'form create-class'
+             para salvar as informações do formulario-->
+        <button type="submit" form="create-class">Salvar cadastro</button>
+      </footer>
+    </main>
+  </div>
+
+</body>
+
+</html>
