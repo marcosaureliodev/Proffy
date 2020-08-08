@@ -4,7 +4,7 @@
 </h4>
 
 # 💻 Projeto
-Ainda será referenciado.
+Projeto criado para referenciar o dia dos profissionais em educação e homenageá-los!
 
 # 👨‍💻 Desenvolvedor 
 [<img src="https://avatars3.githubusercontent.com/u/63154006?s=460&u=42ba311a73dfa829f5ea8cd220fd054ee05314cb&v" width=115 > <br> <sub> Marcos Aurélio </sub>](https://github.com/marcosaureliodev) |

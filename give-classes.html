@@ -21,6 +21,9 @@
     href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
     rel="stylesheet">
 
+    <!-- Script para criação de botão -->
+    <script src="/scripts/addField.js" defer></script>
+
 </head>
 
 <body id="page-give-classes">
@@ -91,36 +94,12 @@
           </div>
         </fieldset>
 
-        <fieldset id="schedule-item">
+        <fieldset id="schedule-items">
           <legend>Horário disponíveis
-            <button id="add-time">+ Novo Horário</button>
+            <button type="button" id="add-time">+ Novo Horário</button>
           </legend>
 
-          <div class="schedule-item">
-            <div class="select-block">
-              <label for="weekday">Dia da semana</label>
-              <select name="weekday[]" required>
-                <option value="">Selecione uma opção</option>
-                <option value="1">Domingo</option>
-                <option value="2">Segunda-feira</option>
-                <option value="3">Terça-feira</option>
-                <option value="4">Quarta-feira</option>
-                <option value="5">Quinta-feira</option>
-                <option value="6">Sexta-feira</option>
-                <option value="7">Sábado</option>
-              </select>
-            </div>
-
-            <div class="input-block">
-              <label for="time-from">Das</label>
-              <input type="time" name="time-from[]" required>
-            </div>
-            <div class="input-block">
-              <label for="time-to">Até</label>
-              <input type="time" name="time-to[]" required>
-            </div>
-          </div>
-          <div class="schedule-item">
+           <div class="schedule-item">
             <div class="select-block">
               <label for="weekday">Dia da semana</label>
               <select name="weekday[]" required>
@@ -144,6 +123,7 @@
               <input type="time" name="time-to[]" required>
             </div>
           </div>
+
         </fieldset>
       </form>
 
@@ -161,5 +141,4 @@
   </div>
 
 </body>
-
 </html>
