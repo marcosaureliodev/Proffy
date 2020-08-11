@@ -17,7 +17,7 @@ A Next Level Week-2 foi ministrada pelo [Maik Brito](https://github.com/maykbrit
 
 <h1 align='center'>✅ Como usar</h1>
 
-## Pré-requisitos
+### Pré-requisitos
 Para dar início ao uso da aplicação é necessário que tenha instalado as seguintes ferramantas.
 
 1. [VScode](https://code.visualstudio.com/)
