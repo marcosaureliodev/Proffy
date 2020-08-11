@@ -1,5 +1,5 @@
 <h4 align="center">
- <img src="https://github.com/marcosaureliodev/Proffy/blob/master/images/logoBlack.svg" width="250px" /><br>
+ <img src="https://github.com/marcosaureliodev/Proffy/blob/master/public/images/logoBlack.svg" width="250px" /><br>
  <b>A sua plataforma de estudos online </b> 👨🏾‍🏫 👨🏾‍🎓
 </h4>
 
