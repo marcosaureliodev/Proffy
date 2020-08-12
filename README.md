@@ -6,6 +6,10 @@
 # 💻 Projeto
 Projeto criado para referenciar o dia dos profissionais em educação e homenageá-los!
 
+### ⌨ Tecnologias usadas
+
+![HTML5](https://img.shields.io/badge/HTML-HTML5-orange) ![CSS3](https://img.shields.io/badge/Css-CSS3-blue) ![JS](https://img.shields.io/badge/Javascript-JS-yellow) ![node](https://img.shields.io/badge/node-12.17.0-GREEN) ![web](https://img.shields.io/badge/npm-6.14.4-red) ![server](https://img.shields.io/badge/server-nodejs-orange) ![nunjucks](https://img.shields.io/badge/nunjucks-NJ-GREEN) ![SQLite](https://img.shields.io/badge/SQL-Lite-blue)
+
 # 👨‍💻 Desenvolvedor 
 [<img src="https://avatars3.githubusercontent.com/u/63154006?s=460&u=42ba311a73dfa829f5ea8cd220fd054ee05314cb&v" width=115 > <br> <sub> Marcos Aurélio </sub>](https://github.com/marcosaureliodev) |
 | :---: |
@@ -56,6 +60,8 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 # 📑 Licença
 
 Esse repositório está licenciado pela MIT LICENSE. Para mais informações detalhadas, leia o arquivo [LICENSE](https://github.com/marcosaureliodev/Proffy/blob/master/LICENSE) contido nesse repositório.
+
+![LICENÇA](https://img.shields.io/badge/LICENÇA-MIT-GREEN)
 
 # 📱 Redes Sociais
 
